@@ -2,16 +2,5 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
-let letters = par.split(" ").join("").toLowerCase();
 
-for (let i = 0; i < letters.length; i++) {
-    let moreLetters = letters[i];
-  
-  if (counts[moreLetters]) {
-    counts[moreLetters] += 1;
-  } else {
-    counts[moreLetters] = 1;
-  }
-    
-}
 console.log(counts);
