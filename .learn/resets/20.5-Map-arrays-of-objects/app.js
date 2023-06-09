@@ -7,9 +7,7 @@ let people = [
 ];
 
 let simplifier = function(person){
-	let nameAge = 
-	return nameAge;
-	'Hello, my name is' person.name 'and I am' 36 'years old'
+	return person.name;
 };
 
 console.log(people.map(simplifier));
