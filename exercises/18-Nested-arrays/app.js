@@ -7,4 +7,4 @@ function longitude(arr) {
     };    
 };
 
-console.log(longitude(coordinatesArray));
+longitude(coordinatesArray);

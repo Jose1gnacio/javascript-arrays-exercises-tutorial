@@ -10,15 +10,3 @@ let tasks = [
 ];
 
 //your code here
-
-function good(arr) {
-	
-	let newArray = arr.filter((tarea)=>{
-		if (tarea.done == true) {
-			return tarea
-		}
-	});
-	return newArray;
-};
-console.log(good(tasks));
-

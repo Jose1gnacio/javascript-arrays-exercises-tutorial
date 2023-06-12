@@ -19,5 +19,6 @@ function mergeTwoList(arr) {
 
     return combined = odd.concat(even);
     
+    
 };
 console.log(mergeTwoList(list_of_numbers));
